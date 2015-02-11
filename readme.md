@@ -20,15 +20,22 @@ On Linux
 --------
 `$HOME` is usually `home/$USERNAME$/`
 
+
+
 1. Extract these files to `$HOME/.vim/`
-2. Edit/make a text file named `$HOME/.vimrc` (no extensions) to be:
+
+    ```
+    git clone git://github.com/victorgan/.vim.git $HOME/.vim
+    ```
+
+2. Edit/make a text file named `$HOME/.vimrc` (no extensions) to be `source $HOME/.vim/vimrc`:
 
    ```
-   source $HOME/.vim/vimrc
+   echo "source $HOME/.vim/vimrc" > $HOME/.vimrc
    ```
-3. Append to $HOME/.bashrc
+3. Append `export TERM=xterm-256color` to $HOME/.bashrc to make it colourful
 
    ```
-   export TERM=xterm-256color
+    echo "export TERM=xterm-256color" >> $HOME/.bashrc
    ```
 
