@@ -9,7 +9,7 @@ On Windows
 ----------
 `$HOME` is usually `C:/Users/$USERNAME$/`
 
-1. Clone/extract the repository to $HOME/.vim/
+1. Clone/extract the repository to `$HOME/.vim/`
 2. Edit/make a text file named `$HOME/_vimrc` (no extensions) to be:
 
    ```
@@ -20,7 +20,7 @@ On Linux
 --------
 `$HOME` is usually `home/$USERNAME$/`
 
-1. Extract these files to $HOME/.vim/
+1. Extract these files to `$HOME/.vim/`
 2. Edit/make a text file named `$HOME/.vimrc` (no extensions) to be:
 
    ```
