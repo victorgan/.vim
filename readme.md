@@ -9,12 +9,19 @@ On Windows
 ----------
 `$HOME` is usually `C:/Users/$USERNAME$/`
 
-1. Clone/extract the repository to `$HOME/.vim/`
-2. Edit/make a text file named `$HOME/_vimrc` (no extensions) to be:
+1. Clone/extract the repository to `$HOME/vimfiles/`
 
-   ```
+   This must be named "vimfiles". For some reason Windows looks here for vim
+   extensions. You can also make a symbol link from the windows command prompt
+   like so:
+   mklink /J C:\Users\vctrg\vimfiles C:\code\2015\github-victorgan\.vim
+
+2. Edit/make a text file named `$HOME/_vimrc` (no extensions) to be:
    source $HOME/.vim/vimrc
-   ```
+
+   This step doesn't seem to be necessary as of 2015-10-30.
+
+3. Install the font dejavu sans mono, in the /dejavu-fonts-ttf-2.35 folder.
 
 On Linux
 --------
