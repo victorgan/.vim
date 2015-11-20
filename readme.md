@@ -15,6 +15,7 @@ On Windows
    extensions. You can also make a symbol link from the windows command prompt
    like so:
    mklink /J C:\Users\vctrg\vimfiles C:\code\2015\github-victorgan\.vim
+   (/J creates a hardlink to a directory or folder, /D soft symbolic link (default), /H hard link file)
 
 2. Edit/make a text file named `$HOME/_vimrc` (no extensions) to be:
    source $HOME/.vim/vimrc
