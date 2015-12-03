@@ -8,6 +8,7 @@ set autochdir           " Set path to current file's directory
 set ofu=syntaxcomplete#Complete " set Omni completion
 set hidden              " allow unsaved buffers to be hidden
 set nofoldenable        " Disable folding
+set autoread            " Automatically updates a file if changed externally
 " gVim ========================================================================
 if has('gui_running')
     set columns=115     " set screen width 
