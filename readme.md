@@ -2,7 +2,6 @@ Vim Settings
 ============
 
 These are my settings for the Vim text editor. It requires Vim to be installed.
-
 To find which folder `$HOME` is, type in the command line: `echo $HOME`
 
 On Windows
@@ -11,10 +10,14 @@ On Windows
 
 1. Clone/extract the repository to `$HOME/vimfiles/`
 
-   This must be named "vimfiles". For some reason Windows looks here for vim
+   This must be named `vimfiles`. For some reason Windows looks here for vim
    extensions. You can also make a symbol link from the windows command prompt
    like so:
+
+   ```
    mklink /J C:\Users\vctrg\vimfiles C:\code\2015\github-victorgan\.vim
+   ```
+
    (/J creates a hardlink to a directory or folder, /D soft symbolic link (default), /H hard link file)
 
 2. Edit/make a text file named `$HOME/_vimrc` (no extensions) to be:
@@ -27,7 +30,6 @@ On Windows
 On Linux
 --------
 `$HOME` is usually `home/$USERNAME$/`
-
 
 
 1. Extract these files to `$HOME/.vim/`
