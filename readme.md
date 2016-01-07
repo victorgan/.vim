@@ -27,6 +27,10 @@ On Windows
 
 3. Install the font dejavu sans mono, in the /dejavu-fonts-ttf-2.35 folder.
 
+4. (Optional) Hardlink the vsvimrc for visual studio
+
+mklink /H C:\Users\vigan\.vsvimrc C:\code\github.com\victorgan\vimfiles\vsvimrc
+
 On Linux
 --------
 `$HOME` is usually `home/$USERNAME$/`

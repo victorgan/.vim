@@ -1,0 +1,32 @@
+" Visuals =====================================================================
+set cursorline          " Highlight line with cursor on it
+" Searching/Replacing =========================================================
+set hlsearch            " Highlight searches (use :noh to unhighlight)
+set incsearch           " Start searching when first character is typed
+set ignorecase          " Ignore case when searching
+set smartcase           " Case sensitive / search only if there is a capital
+set clipboard=unnamed   " Use system primary clipboard for unnamed registers
+" Tabs ========================================================================
+set expandtab           " Make tabs become spaces
+set tabstop=4           " Makes tab equivalent to four spaces
+set shiftwidth=4        " Set indentation levels of (<< and >>)
+set softtabstop=4       " Makes tab in insert mode equivalent to four spaces
+set autoindent          " Copies indentation from previous line for new lines
+
+" Like Vim, VsVim uses an rc file for its settings. VsVim will check the
+" following candidate rc folders:
+" 
+"     %HOME%
+"     %HOMEDRIVE%%HOMEPATH%
+"     %VIM%
+"     %USERPROFILE%
+" 
+" Once it finds a folder, it will check for the following candidate rc files:
+" 
+"     .vsvimrc
+"     _vsvimrc
+"     .vimrc
+"     _vimrc
+" 
+" You can use the set command (with no arguments) interactively to see what file
+" VsVim found and loaded.
