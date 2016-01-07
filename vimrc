@@ -6,23 +6,23 @@ filetype plugin on      " Determine file type
 set nocompatible        " Disables compatibility with Vi
 set autochdir           " Set path to current file's directory
 set ofu=syntaxcomplete#Complete " set Omni completion
-set hidden              " allow unsaved buffers to be hidden
+set hidden              " Allow unsaved buffers to be hidden
 set nofoldenable        " Disable folding
 set autoread            " Automatically updates a file if changed externally
 " gVim ========================================================================
 if has('gui_running')
-    set columns=115     " set screen width 
-    set lines=51        " set window height
-    set numberwidth=3   " set width of number 'gutter' column
+    set columns=115     " Set screen width 
+    set lines=51        " Set window height
+    set numberwidth=3   " Set width of number 'gutter' columns on the left
     set guioptions-=T   " Get rid of toolbar
     set guifont=DejaVu\ Sans\ Mono:h11 "set font:font size
 endif
 " Visuals =====================================================================
-colorscheme molokai     " set color scheme
-set colorcolumn=80      " make 80th column a different color
-set textwidth=80        " new line when typing past 80 chars
-set encoding=utf8       " use character encoding
-set relativenumber      " set line numbers relative to the current line
+colorscheme molokai     " Set color scheme
+set colorcolumn=80      " Make 80th column a different color
+set textwidth=80        " New line when typing past 80 chars
+set encoding=utf8       " Use character encoding
+set relativenumber      " Set line numbers relative to the current line
 set ruler               " Always show current position
 set wrap!               " Turn off word wrapping
 set scrolloff=5         " Keep X lines of padding at top/bottom
@@ -38,15 +38,15 @@ set tabstop=4           " Makes tab equivalent to four spaces
 set shiftwidth=4        " Set indentation levels of (<< and >>)
 set softtabstop=4       " Makes tab in insert mode equivalent to four spaces
 set autoindent          " Copies indentation from previous line for new lines
-" backups =====================================================================
+" Backups =====================================================================
 set nobackup
 set nowb
 set noswapfile
 set history=1000        " Sets how many lines of history VIM has to remember
-" Remapping Keys ==============================================================
-"Displays current date
+" Key Remappings ==============================================================
+" Displays current date
 nmap <F5> a<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
 imap <F5> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
-" guarantees that the NERDTrees for all tabs will be one and the same
+" Guarantees that the NERDTrees for all tabs will be the same
 map ,; :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 let NERDTreeShowBookmarks=1
