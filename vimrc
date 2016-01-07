@@ -26,12 +26,14 @@ set relativenumber      " Set line numbers relative to the current line
 set ruler               " Always show current position
 set wrap!               " Turn off word wrapping
 set scrolloff=5         " Keep X lines of padding at top/bottom
+set cursorline          " Highlight line with cursor on it
 syntax on               " Turn on syntax highlighting
 " Searching/Replacing =========================================================
 set hlsearch            " Highlight searches (use :noh to unhighlight)
 set incsearch           " Start searching when first character is typed
 set ignorecase          " Ignore case when searching
 set smartcase           " Case sensitive / search only if there is a capital
+set clipboard=unnamed   " Use system primary clipboard for unnamed registers
 " Tabs ========================================================================
 set expandtab           " Make tabs become spaces
 set tabstop=4           " Makes tab equivalent to four spaces
