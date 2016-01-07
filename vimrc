@@ -51,4 +51,5 @@ nmap <F5> a<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
 imap <F5> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
 " Guarantees that the NERDTrees for all tabs will be the same
 map ,; :NERDTreeToggle \| :silent NERDTreeMirror<CR>
+" Always show NERDTREE bookmarks
 let NERDTreeShowBookmarks=1
