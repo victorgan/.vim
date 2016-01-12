@@ -1,5 +1,5 @@
 "Pathogen call
-call pathogen#runtime_append_all_bundles() 
+execute pathogen#infect()
 
 " Core ========================================================================
 filetype plugin on      " Determine file type
