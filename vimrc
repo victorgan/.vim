@@ -55,4 +55,4 @@ map ,; :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 let NERDTreeShowBookmarks=1
 
 " fast normal mode with fd
-:imap fd <Esc>
+" :imap fd <Esc>
