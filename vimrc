@@ -53,3 +53,6 @@ imap <F5> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
 map ,; :NERDTreeToggle \| :silent NERDTreeMirror<CR>
 " Always show NERDTREE bookmarks
 let NERDTreeShowBookmarks=1
+
+" fast normal mode with fd
+:imap fd <Esc>
