@@ -27,6 +27,9 @@ set ruler               " Always show current position
 set wrap!               " Turn off word wrapping
 set scrolloff=5         " Keep X lines of padding at top/bottom
 set cursorline          " Highlight line with cursor on it
+set list                " Display whitespace characters
+" Specify which whitespace characters to display and how
+set listchars=tab:»·,trail:·
 syntax on               " Turn on syntax highlighting
 " Searching/Replacing =========================================================
 set hlsearch            " Highlight searches (use :noh to unhighlight)
