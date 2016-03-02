@@ -1,4 +1,6 @@
 # Installation instructions for vim.
+# to run:
+# bash install.sh
 # do not run as sudo
 
 # Create a symbolic link
