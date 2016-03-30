@@ -15,7 +15,6 @@ if has('gui_running')
     set lines=51        " Set window height
     set numberwidth=3   " Set width of number 'gutter' columns on the left
     set guioptions-=T   " Get rid of toolbar
-    set guifont=DejaVu\ Sans\ Mono:h11 "set font:font size
 endif
 " Visuals =====================================================================
 colorscheme molokai     " Set color scheme
