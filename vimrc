@@ -11,10 +11,11 @@ set nofoldenable        " Disable folding
 set autoread            " Automatically updates a file if changed externally
 " gVim ========================================================================
 if has('gui_running')
-    set columns=115     " Set screen width 
-    set lines=51        " Set window height
-    set numberwidth=3   " Set width of number 'gutter' columns on the left
-    set guioptions-=T   " Get rid of toolbar
+    set columns=115         " Set screen width 
+    set lines=51            " Set window height
+    set numberwidth=3       " Set width of number 'gutter' columns on the left
+    set guioptions-=T       " Get rid of toolbar
+    set guifont=SF\ Mono    " Set font for GVim (Requires SF Mono installed)
 endif
 " Visuals =====================================================================
 colorscheme molokai     " Set color scheme
